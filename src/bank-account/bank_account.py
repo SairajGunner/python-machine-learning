@@ -6,7 +6,7 @@ class BankAccount:
         self.customer_name = name
 
     def show_balance(self):
-        print(self.balance)
+        print("Your balance is {}".format(self.balance))
 
     def deposit_money(self, amount):
         self.balance += amount
