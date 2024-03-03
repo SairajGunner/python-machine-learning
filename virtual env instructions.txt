@@ -1,0 +1,11 @@
+Use conda virtual environment because it has better capabilties.
+
+However, here are the steps to make a virtual environment using .venv
+
+Create .venv folder (there should be a command for this)
+pip install virtualenv
+source .venv/bin/activate
+
+
+Do debug into library files, add this to the launch.json
+"justMyCode": false
